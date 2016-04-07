@@ -1,0 +1,6 @@
+javac src/JHMyDeflater.java
+cd src
+//generate dict
+java JHMyDeflater -gen ../sample/plugn
+java JHMyDeflater -c ../sample/plugn.dict ../sample/font1.txt ../sample/font1.txt.mc
+java JHMyDeflater -d ../sample/plugn.dict ../sample/font1.txt.mc ../sample/font1.txt.org
